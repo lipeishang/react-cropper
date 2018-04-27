@@ -52,7 +52,7 @@ const Main = React.createClass({
 
         return (
             <div>
-                <Dragger props={props}>
+                <Dragger>
                     <p className="ant-upload-drag-icon">
                         <Icon type="inbox" />
                     </p>
