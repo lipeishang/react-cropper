@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Crop from './Crop.jsx';
-import { Upload, Icon, message } from 'antd';
+import Upload from 'antd/lib/upload'; 
+import Icon from 'antd/lib/icon';
+import message from 'antd/lib/message';
+import 'antd/dist/antd.css';
 
 const Main = React.createClass({
     getInitialState() {
